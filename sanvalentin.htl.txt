@@ -1,39 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Mi Amor ❤️</title>
-    <style>
-        body {
-            text-align: center;
-            background-color: #ffe6e6;
-            font-family: Arial, sans-serif;
-        }
-        h1 { color: red; }
-        #mensaje {
-            font-size: 20px;
-            color: #333;
-        }
-        button {
-            background-color: red;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <h1>Feliz San Valentín, Mi Amor ❤️</h1>
-    <p id="mensaje">Haz clic en el botón para ver una sorpresa</p>
-    <button onclick="mostrarSorpresa()">Ver Sorpresa</button>
-    <p id="sorpresa" style="display:none;">Eres la persona más increíble del mundo y te amo mucho ❤️</p>
-
-    <script>
-        function mostrarSorpresa() {
-            document.getElementById("sorpresa").style.display = "block";
-        }
-    </script>
-</body>
-</html>
+.sunflower_love {
+    width: 360px;
+    position: absolute;
+    top: 360px;
+    left: -30px;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+}
