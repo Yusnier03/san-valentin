@@ -1,9 +1,1 @@
-.sunflower_love {
-    width: 360px;
-    position: absolute;
-    top: 360px;
-    left: -30px;
-    font-size: 35px;
-    text-align: center;
-    font-family: "Indie Flower", cursive;
-}
+
